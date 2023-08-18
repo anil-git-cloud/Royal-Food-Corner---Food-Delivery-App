@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 50px;
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0px 11px 24px rgba(0, 0, 0, 0.12);
+}
+.logo img {
+  display: block;
+  padding-bottom: 8px;
+  max-width: 70px;
+  float: left;
+  margin-top: 1px;
+}
+.logo h3 {
+  display: inline-block;
+  position: absolute;
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #000;
+  font-size: 18px;
+}
+.logo p {
+  color: #000;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 0 10px;
+  display: inline-flex;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.navbar .nav-menu {
+  display: flex;
+}
+.nav-menu li {
+  list-style: none;
+}
+.nav-menu li a {
+  /* position: absolute; */
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  margin-left: 40px;
+}
+span {
+  /* position: absolute; */
+  top: 50%;
+  left: 0;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 0;
+}
+/* svg {
+  height: 17;
+  width: 17;
+  fill: rgb(104, 107, 120);
+} */
+.nav-menu li a:hover {
+  color: crimson;
+}
