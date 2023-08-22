@@ -26,7 +26,7 @@ const Header = () => {
                       </li>
                       <li className="nav-menu-list">
                           <a href="#">
-                              <span className="nav-menu-icon"><IoIosRestaurant /></span>Restaurant</a>
+                              <span className="nav-menu-icon"><IoIosRestaurant /></span>Restaurants</a>
                       </li>
                       <li className="nav-menu-list">
                           <a href="#">
