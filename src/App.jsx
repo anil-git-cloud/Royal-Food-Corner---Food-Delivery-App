@@ -1,14 +1,14 @@
-import Body from './component/Body'
 import Header from './component/Header'
+import Home from './component/Home';
 import './App.css'
 
 function App() {
   return (
     <>
       <Header />
-      <Body/>
+      <Home/>
     </>
   )
 }
 
-export default App
+export default App;

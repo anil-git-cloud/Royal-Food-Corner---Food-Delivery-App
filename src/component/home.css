@@ -1,0 +1,10 @@
+.int-btn {
+  padding: 20px 10px 10px 10px;
+}
+.int-btn input {
+  margin-right: 10px;
+}
+.Rest-card {
+  display: flex;
+  flex-wrap: wrap;
+}
